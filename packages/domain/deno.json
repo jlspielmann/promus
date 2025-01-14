@@ -1,0 +1,8 @@
+{
+  "name": "@promus/domain",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "imports": {
+    "@effect/platform": "npm:@effect/platform@latest"
+  }
+}

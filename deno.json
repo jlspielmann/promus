@@ -1,0 +1,21 @@
+{
+    "workspace": [
+        "./packages/domain",
+        "./packages/persistence",
+        "./packages/service",
+        "./packages/server"
+    ],
+    "imports": {
+        "effect": "npm:effect@latest"
+    },
+    "nodeModulesDir": "auto",
+    "fmt": {
+        "options": {
+            "indentWidth": 2,
+            "singleQuote": false,
+            "proseWrap": "always",
+            "lineWidth": 80,
+            "useTabs": false
+        }
+    }
+}

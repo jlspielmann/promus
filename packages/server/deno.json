@@ -1,0 +1,9 @@
+{
+  "name": "@promus/server",
+  "version": "0.1.0",
+  "exports": "./server.ts",
+  "imports": {
+    "@effect/platform": "npm:@effect/platform@latest",
+    "@effect/platform-node": "npm:@effect/platform-node@latest"
+  }
+}
