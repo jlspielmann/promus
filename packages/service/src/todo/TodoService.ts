@@ -7,9 +7,7 @@ export class TodoService extends Context.Tag("TodoService")<
   {
     readonly getAll: () => Effect.Effect<Todo[]>;
     readonly createTodo: (text: string) => Effect.Effect<Todo>;
-    readonly completeTodo: (
-      id: TodoId,
-    ) => Effect.Effect<Todo, TodoNotFound>;
+    readonly completeTodo: (id: TodoId) => Effect.Effect<Todo, TodoNotFound>;
     readonly removeTodo: (id: TodoId) => Effect.Effect<void, TodoNotFound>;
   }
 >() {}
